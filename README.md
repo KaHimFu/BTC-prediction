@@ -17,3 +17,11 @@ This project leverages a **Long Short-Term Memory (LSTM)** neural network to for
 - **CryptoBERT Integration**: Domain-specific sentiment analysis for cryptocurrency markets.
 - **Dynamic Feature Engineering**: Automated calculation of technical indicators.
 - **Time-Series Forecasting**: LSTM-based sequence modeling for volatility capture.
+
+## Requirements:
+- numpy>=1.21.0
+- pandas>=1.3.0
+- tensorflow>=2.8.0
+- transformers>=4.18.0  # For CryptoBERT
+- ta>=0.10.0            # Technical indicators
+- matplotlib>=3.5.0
